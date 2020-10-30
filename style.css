@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.first_div{
+background-image: url("image/f1.png");
+width: 1920px;
+height: 1080px;
+}
+.ChallengerText{
+
+  font-family: 'Sitka Display', 
+    sans-serif;
+    font-size: 86px;
+    height: 350px;
+    width: 70px;
+    position: relative;
+    top:270px;
+    display: block;
+    left: 148px;
+    color: white;
+}
+.testText{
+    height: 60px;
+    width: 915px;
+    font-family: "Open Sans";
+     font-size: 49px;
+     position: relative;
+     left: 148px;
+     margin-bottom: 100px;
+     color:#650061
+}
+.AskMeButton{
+    width: 405px;
+    height: 81px;
+    font-family: "Open Sans";
+    font-size: 49px;
+    border-radius: 40px;
+    border:none;
+    position: relative;
+    left:148px;
+    margin-bottom: 20px;;
+    display: block;
+}
+.pseu{
+    position: absolute;
+    top:1010px;
+    left:148px;
+    font-family: "Open Sans";
+    font-size: 24px;
+    width:200px;
+}
+.second_div{
+
+    background-image: url("image/f2.png");
+    width:1920px;
+    height: 1081px;
+   
+}
+
+.quizButton{
+    width: 1238px;
+    height: 233px;
+    font-family: "Open Sans";
+    font-size: 49px;
+    background-color: #9A24A9;
+    border: none;
+    border-radius: 15px;
+    position: absolute;
+    right: 341px;
+    top: 1563px;
+}
+.or{
+    font-family: "Open Sans";
+    font-size: 27px;
+    position: absolute;
+    right:947px;
+    top:1855px;
+
+}
+.check{
+    font-family: "Open Sans";
+    font-size: 27px;
+    position: absolute;
+    right:773px;
+    top:1912px;
+}
+.three_div{
+    background-image: url("image/f3.png");
+    width:1920px;
+    height: 1018px;
+    border-top:2px
+}
+.want{
+    width:570px;
+    height: 175px;
+    font-family: 'Sitka Display', 
+    sans-serif;
+    font-size: 85px;
+    color: #2E353A;
+    position: absolute;
+    top:2363px;
+    left: 134px;
+}
+.skills{
+    width:570px;
+    height: 175px;
+    font-family: "Open Sans";
+    font-size: 30px;
+    color: #2E353A;
+    position: absolute;
+    top:2558px;
+    left: 134px;
+    margin-top: 15px;;
+}
+.start{
+    width: 865px;
+    height: 163px;
+    position: absolute;
+    left:120px;
+    top:2744px;
+    font-family: "Open Sans";
+    font-size: 45px;
+    background-color: #9A24A9;
+    color: white;
+    border:none;
+    clip-path: polygon(50% 0%, 100% 0, 100% 22%, 95% 73%, 93% 100%, 50% 100%, 15% 100%, 0 100%, 0% 35%, 0 0);
+    border-radius: 20px;;
+}
+.fourth_div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 324px;
+    width:1920px;
+  
+}
+ .insideF{
+    color: black;
+    text-decoration: none;
+    font-family: "Open Sans";
+    font-size: 30px;
+}
