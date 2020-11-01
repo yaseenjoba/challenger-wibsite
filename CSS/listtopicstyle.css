@@ -1,0 +1,43 @@
+*{
+    margin:0px;
+}
+.header{
+    width: 1920px;
+    height: 100px;
+    background-image: url("../image/f4.png");
+
+}
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Josefin Sans', sans-serif;
+}
+.header .headerText{
+    font-family: 'Sitka Display', 
+    sans-serif;
+    color:white;
+    position: absolute;
+    top:15px;
+    left: 49px;
+    font-size: 57px;
+    text-decoration: none;
+
+}
+table{
+    width: 100%;
+    margin-top: 20px;
+    font-size: 30px;
+    color: white;
+    background-image: linear-gradient(to right, #f336e3, #ac51a4);
+
+}
+
+table, th, td {
+    border: 4px solid black;
+    border-collapse: collapse;
+}

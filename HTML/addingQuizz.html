@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/dashboardStyle.css">
+    <link rel="stylesheet" href="../CSS/addingQuestionStyle.css">
+    <link rel="stylesheet" href="../CSS/addingTopicStyle.css">
+    <script src="../JS/index.js"></script>
+</head>
+
+<body>
+    <div class="header">
+        <h1 class="headerText">challenger <span style=" font-family: 'Open Sans';
+            font-size: 32px; color:#650061
+    
+            ">ADMIN</span></h1>
+
+    </div>
+    <div class="wrapper">
+        <div class="sidebar">
+            <ul>
+                <li><a href="dashboard.html"><i ></i>Dashboard</a></li>
+                <li><a href="listquizz.html"><i ></i>Quizzs</a></li>
+                <li><a href="questionlist.html"><i ></i>Questions Base</a></li>
+                <li><a href="listtopic.html"><i ></i>Topics</a></li>
+                <li><a href="#"><i ></i>Settings</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="mainContant">
+        <div class="contant">
+            <p style="margin-right: 30px; margin-top: 15px; color: #650061;">Add Quiz</p><br>
+            <p style="margin-right: 30px; margin-top: 15px; margin-bottom: 15px;color: black;">Title</p>
+            <input type="text" id="quiz-title" class="inputBox"><br>
+            <p style="margin-right: 30px; margin-top: 15px;  color: black;">Topic</p>
+            <select class="inputBox" id="quiz-topic"Name="Topics" id="select-topic" style="margin-top: 15px;">
+            </select>
+            <br>
+            <p style="margin-right: 30px; margin-top: 15px; margin-bottom: 15px;color: black;">Number of Questions</p>
+            <input type="text" id="quiz-numberofquestion"class="inputBox"><br>
+            <button class="buttons" onclick="addQuiz();">Save</button>
+            
+        </div>
+    </div>
+    <script src="addingquizz.js"></script>
+</body>
+
+</html>

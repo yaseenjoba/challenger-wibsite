@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="dashboardStyle.css">
-    <link rel="stylesheet" href="addingTopicStyle.css">
+    <link rel="stylesheet" href="../CSS/dashboardStyle.css">
+    <link rel="stylesheet" href="../CSS/addingTopicStyle.css">
+    <script src="../JS/addingtopics.js"></script>
 </head>
 <body>
     <div class="header">
@@ -19,9 +20,9 @@
         <div class="sidebar">
             <ul>
                 <li><a href="dashboard.html"><i ></i>Dashboard</a></li>
-                <li><a href="#"><i ></i>Quizzs</a></li>
-                <li><a href="#"><i ></i>Questions Base</a></li>
-                <li><a href="#"><i ></i>Topics</a></li>
+                <li><a href="listquizz.html"><i ></i>Quizzs</a></li>
+                <li><a href="questionlist.html"><i ></i>Questions Base</a></li>
+                <li><a href="listtopic.html"><i ></i>Topics</a></li>
                 <li><a href="#"><i ></i>Settings</a></li>
             </ul>
   </div>
@@ -30,9 +31,10 @@
     <div class="contant">
         <p style="margin-right: 30px; margin-top: 15px; color: #650061;">Add Topic</p><br>
         <p style="margin-right: 30px; margin-top: 15px; color: #650061;">Title</p>
-        <input type="text" class="inputBox"><br>
-        <button class="buttons">Save</button>
+        <input type="text" class="inputBox" id="title"><br>
+        <button class="buttons" onclick="addTopic();">Save</button>
     </div>
+    
 </div>
 </body>
 </html>

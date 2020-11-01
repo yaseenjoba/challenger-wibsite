@@ -3,7 +3,7 @@
     padding: 0;
 }
 .first_div{
-background-image: url("image/f1.png");
+background-image: url("../image/f1.png");
 width: 1920px;
 height: 1080px;
 }
@@ -52,7 +52,7 @@ height: 1080px;
 }
 .second_div{
 
-    background-image: url("image/f2.png");
+    background-image: url("../image/f2.png");
     width:1920px;
     height: 1081px;
    
@@ -86,7 +86,7 @@ height: 1080px;
     top:1912px;
 }
 .three_div{
-    background-image: url("image/f3.png");
+    background-image: url("../image/f3.png");
     width:1920px;
     height: 1018px;
     border-top:2px

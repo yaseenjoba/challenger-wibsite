@@ -4,7 +4,7 @@
 .header{
     width: 1920px;
     height: 100px;
-    background-image: url("image/f4.png");
+    background-image: url("../image/f4.png");
 
 }
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
@@ -99,6 +99,7 @@ body{
     background-color: #B536A7;
     border:none;
     border-radius: 40px;
+    background-image: linear-gradient(to right, #f336e3, #ac51a4);
 
     color: white;
 }

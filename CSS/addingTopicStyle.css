@@ -12,4 +12,5 @@ display: block;
 }
 .buttons{
     margin-top: 50px;
+    background-image: linear-gradient(to right, #f336e3, #ac51a4);
 }
