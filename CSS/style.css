@@ -142,3 +142,12 @@ height: 1080px;
     font-family: "Open Sans";
     font-size: 30px;
 }
+.present{
+    width: 1238px;
+    height: 233px;
+    font-family: "Open Sans";
+    font-size: 20px;
+    position: absolute;
+    right: 341px;
+    top: 1450px;
+}
