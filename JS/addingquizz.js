@@ -10,6 +10,7 @@ for(i=0;i<topics.length;i++){
 }
 let quizz=[];
 function addQuiz(){
+    quizz = JSON.parse(localStorage.getItem("Quizz"))
     let quizTitle=document.getElementById("quiz-title").value;
     let quizTopic=document.getElementById("quiz-topic").value;
     let quizQuestions=document.getElementById("quiz-numberofquestion").value;
